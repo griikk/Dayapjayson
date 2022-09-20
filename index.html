@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Jayson's Introduction</title>
+</head>
+
+<body background="C:\Users\acer\Desktop\Intro for NSTP\img\cloud.jpg">
+    <div class="profile" id="profile">
+        <button type="button" class="studprof" id="studprof" onclick="openwhoiam()">Student's Introduction</button>
+    </div>
+    <div class="whoiam" id="whoiam">
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\jayson.jpg" alt="an image of jayson">
+        <h2 class="myName" id="myName" >I'm Jayson D. Dayap</h2>
+        <p class="course" id="course">From BSCS 1B</p>
+        <button type="button" class="talk" id="talk" onclick="openquestion()">Hello Mr. Dayap!</button>
+    </div>
+    <div class="questions" id="questions">
+        <button class="ask1" id="ask1" onclick="closeask1()" >Why did you chose BSCS?</button>
+    </div>
+
+    <div class="answer1" id="answer1" >
+        <h2 class="anstitle1" id="anstitle1">Why did you chose BSCS?</h2>
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\coding.jpg" alt="a person coding" class="coding" id="coding" >
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\programming.jpg" alt="codes" class="programming" id="programming" >
+        <p class="answord1" id="answord1">I chose Bachelor of Science in Computer Science, because when the first time programming was introduced to me my mind was full of curiosity and dreams. I've thought of creating my own program. Even until now I'm still drived to become a professional Programmer. It may be hard to achieve this dream I want to pursue, but that's what'll make it more exciting and more eagier to succesfully fulfill this goal.</p>
+        <button class="ask2" id="ask2" onclick="openquestion2()">What are your hobbies?</button>
+    </div>
+    <div class="questions2" id="questions2">
+        <h2 class="anstitle2" id="anstitle2">What are your hobbies?</h2>
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\anime.jpg" alt="psoter of an anime called konosuba" class="anime" id="anime">
+        <p class="answord2" id="answord2">One of my hobbies is watching Animes.</p>
+        <button type="button" class="gotomanga" id="gotomanga" onclick="openmanga()">...</button>
+    </div>
+    <div class="read" id="read">
+        <h2 class="anstitle2" id="anstitle2">What are your hobbies?</h2>
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\manga.jpg" alt="black clover manga" id="manga" class="manga">
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\manhwa.jpg" alt="solo leveling poster" id="manhwa" class="manhwa">
+        <p class="mangaword" id="mangaword"> Another hobbies I do is reading manga and manhwas</p>
+        <button type="button" class="gotogames" id="gotogames" onclick="opengames()">...</button>
+    </div>
+    <div class="games" id="games">
+        <h2 class="anstitle2" id="anstitle2">What are your hobbies?</h2>
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\stardew.jpg" alt="stardew valley poster" class="stardew" id="stardew">
+        <img src="C:\Users\acer\Desktop\Intro for NSTP\img\minecraft.jpg" alt="minecraft poster" class="mc" id="mc">
+        <p class="gamesword" id="gameswords">Another hobbies I do is playing video games</p>
+        <button type="button" class="gototalent" id="gototalent" onclick="opentalent()">What are your Talents/Special Traits</button>
+    </div>
+    <div class="talent" id="talent">
+        <h2 class="anstitle2" id="anstitle2">What are your Talents/Special Traits?</h2>
+        <p class="talentword" id="talentword">NONE</p>
+        <p class="talentreason" id="talentreason">Because, I'm not even that special to her life.<strong>JK LANG<strong></strong> </p>
+        <button type="button" class="gotoknowme" id="gotoknowme" onclick="openknowme()"><div class="">...</div></button>
+    </div>
+    <div class="knowme" id="knowme">
+        <h2 class="endword" id="endword">Now you know me</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

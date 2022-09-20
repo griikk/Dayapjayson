@@ -1,0 +1,506 @@
+body {
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 1300px 800px;
+    display: flex;
+}
+
+.profile {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+.studprof {
+    border: 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.closeprof {
+    visibility: hidden;
+}
+
+.whoiam {
+    width: 280px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 0 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+} 
+
+.showwhoiam {
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.whoiam img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    object-position: top;
+}
+
+.talk {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.myName {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.course {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.questions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showquestions {
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.ask1 {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hideask1 {
+    visibility: hidden;
+}
+
+.answer1 {
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.8s;
+}
+
+.showans1 {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.anstitle1 {
+    font-size: 30px;
+    font-weight: 400;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.coding {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.programming {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.answer1 p {
+    text-align: left;
+}
+
+.answord1 {
+    text-indent: 40px;
+    font-size: 20px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ask2 {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.questions2 {
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.anime {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.answord2 {
+    text-indent: 40px;
+    font-size: 20px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.answer2 {
+    text-indent: 40px;
+    font-size: 20px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.showquestions2 {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.anstitle2 {
+    font-size: 30px;
+    font-weight: 400;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.ask3 {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gotomanga {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.read {
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showread {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.manga {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.manhwa {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.mangaword {
+    text-indent: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gotogames {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.games {
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showgames {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.mc {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.stardew {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.gamesword {
+    text-indent: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gototalent {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.talent {
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showtalent {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.talentword {
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.talentreason {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 200;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gotoknowme {
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.knowme {
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    justify-content: center;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showknowme {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.endword {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: rgb(139, 230, 158);
+    color: #333;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
